@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>محسن محمدی رهنما</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
+    <!-- Main css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <div class="wrapper">
+                    <h1>کتابگَر</h1>
+                    <h5>جستجوگر کتاب</h5>
+                    <h6>پیاده سازی شده توسط محسن محمدی رهنما</h6>
+                    <img src="img/research.svg" alt="">
+
+                    <form action="" class="searchBookForm">
+                        <div class="md-form">
+                            <input type="text" class="form-control" id="searchBookInput">
+                            <label for="searchBookInput"> مشخصه ای از کتاب را وارد نمایید</label>
+                        </div>
+                        <button class="btn btn-info waves-effect waves-light" id="searchBook">
+                            <h6 class="m-0">جستجو کن</h6>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5" id="bookResualts">
+        </div>
+        <div id="notFoundBook">
+            <h2 class="text-center my-3"> ): متاسفانه کتاب مورد نظر یافت نشد</h2>
+            <nav class="shelf">
+                <a class="book bookFirst">کتاب یک</a>
+                <a class="book bookSecond">کتاب دو</a>
+                <a class="book bookThird">کتاب سه</a>
+                <a class="book bookFourth">کتاب چهار</a>
+
+                <span class="book not-found"></span>
+
+                <span class="door left"></span>
+                <span class="door right"></span>
+            </nav>
+
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/js/mdb.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
